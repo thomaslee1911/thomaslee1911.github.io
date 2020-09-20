@@ -1,65 +1,83 @@
 <html>
 <head>
 	<title>Thomas Lee</title>
-	<link rel="icon" type="image/png" href="/favicon.png"/>
+	<link rel="icon" type="image/png" href="favicon.png"/>
 	<link rel='stylesheet'  href='thomaslee.css' type='text/css'/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <style>
-	body {
+	html {
 		font-family: Arial, sans-serif;
-		font-size: 12px;
+		font-size: 75%;
+		margin-left:5%;
+		margin-right:5%;
+		margin-bottom:5%
+	}
+	.row {
+		width:90%;
+		display:flex;
+	}
+	.pic {
+		margin-right:2%;
+		margin-top:auto;
+		margin-bottom:auto;
+	}
+	.pic_img {
+		width:30vw;
+		max-width:200;
+	}
+	.info {
+		margin-top:auto;
+		margin-bottom:auto
+	}
+	#name {
+		font-size:2.5rem;
+	}
+	h3 {
+		font-size:2rem;
+		font-weight:normal;
+	}
+	h4 {
+		font-size:1.2rem;
+		font-weight:normal;
 	}
 	hr {
 		border-top: 1px solid #f2f2f2;
 		border-left: 1px solid #f2f2f2;
 	}
-	span.line {
-	  display: inline-block;
-	}
-	.pic {
-		margin-right:10px;
-		margin-top:auto;margin-bottom:auto
-	}
-	#name {
-		font-size:20px;
-	}
 </style>
 
 
-<body style="margin-left:5%;margin-right:5%;margin-bottom:5%">
+<body>
 <p>
-<div style="display:flex">
-		<div class="pic">
-		<img src="img/picture2.png" width=150>
+<div class="row">
+	<div class="pic">
+		<img src="img/picture2.png" class="pic_img">
 	</div>
-	<div style="margin-top:auto;margin-bottom:auto">
-		<div id="name"><b>Thomas Lee</b></div>
-		<br>
-		Email: thomaslee1911@gmail.com<br>
+	<div class="info">
+		<div id="name">Thomas Lee</div>
+		<a href="mailto:thomaslee1911@gmail.com">thomaslee1911@gmail.com</a><br>
 		<a href="https://scholar.google.com/citations?hl=en&user=bvg9bmAAAAAJ" target="_blank">Google Scholar</a><br>
 		<a href="docs/CV Thomas Lee 2020-09-17.pdf" target="_blank">CV</a>
 	</div>	
-
-</div>
-</p>
-<p>
-<div style="max-width:640px">
-		Hi! I'm currently a Senior Trading Analyst at
-		<a href="https://www.betm.com/" target="_blank">Boston Energy Trading and Marketing</a> (part of <a href="https://dgc-us.com/" target="_blank">DGC</a>, <a href="https://www.mitsubishicorp.com/us/en/mca/" target="_blank">Mitsubishi Corporation</a>). Please find some of my research-related work on this page.
 </div>
 </p>
 
-
-<p style="clear:both"><h3><b>Research</b></h3></p>
 <p>
-<div style="width: 90%;display:flex;">
+	Hi! I'm currently a Senior Trading Analyst at
+	<a href="https://www.betm.com/" target="_blank">Boston Energy Trading and Marketing</a> (part of <a href="https://dgc-us.com/" target="_blank">DGC</a>, <a href="https://www.mitsubishicorp.com/us/en/mca/" target="_blank">Mitsubishi Corporation</a>), where my work now focuses on proprietary trading in nodal electricity markets. I'm also interested in energy storage optimization and market design. Please find some of my research-related work on this page.
+</p>
+
+<h3>Research</h3>
+
+<p>
+<div class="row">
 	<div class="pic">
-		<img src="img/pic_capstone.png" width=150>
+		<img src="img/pic_capstone.png" class="pic_img">
 	</div>
-	<div style="margin-top:auto;margin-bottom:auto">
+	<div class="info">
 		<b>Optimizing Electricity Generation Portfolios with Intermittency: Does Delayed Externality Pricing Cause Lock-in Regret?</b><br>
 		Senior Capstone Thesis, University of Pennsylvania. December 2017.<br>
 		<a href="docs/capstone_thesis_ThomasLee_2017.pdf" target="_blank">Thesis</a>
@@ -68,14 +86,14 @@
 	</div>
 </div>
 </p>
-
 <hr>
+
 <p>
-<div style="width: 90%;display:flex;">
+<div class="row">
 	<div class="pic">
-		<img src="img/pic_pjm_regd.png" width=150>
+		<img src="img/pic_pjm_regd.png" class="pic_img">
 	</div>
-	<div style="margin-top:auto;margin-bottom:auto">
+	<div class="info">
 		<b>Energy Storage in PJM: Exploring Frequency Regulation Market Transformation.</b><br>
 		Kleinman Center for Energy Policy. Research Paper. July 2017.<br>
 		<a href="https://kleinmanenergy.upenn.edu/paper/energy-storage-pjm" target="_blank">Paper</a>
@@ -89,11 +107,11 @@
 
 <hr>
 <p>
-<div style="width: 90%;display:flex;">
+<div class="row">
 	<div class="pic">
-		<img src="img/pic_pfr_headroom.png" width=150>
+		<img src="img/pic_pfr_headroom.png" class="pic_img">
 	</div>
-	<div style="margin-top:auto;margin-bottom:auto">
+	<div class="info">
 		<b>A Market for Primary Frequency Response? The Role of Renewables, Storage, and Demand.</b><br>
 		Kleinman Center for Energy Policy. Working Paper. June 2018.<br>
 		<a href="https://kleinmanenergy.upenn.edu/paper/market-primary-frequency-response" target="_blank">Working Paper</a>
@@ -105,11 +123,11 @@
 
 <hr>
 <p>
-<div style="width: 90%;display:flex;">
+<div class="row">
 	<div class="pic">
-		<img src="img/pic_currency_hedge_ratios.png" width=150>
+		<img src="img/pic_currency_hedge_ratios.png" class="pic_img">
 	</div>
-	<div style="margin-top:auto;margin-bottom:auto">
+	<div class="info">
 		(As Research Assistant)<br>
 		<b>Optimal Currency Hedging for International Equity Portfolios.</b><br>
 		Jacob Boudoukh, Matthew Richardson, Ashwin Thapar, Franklin Wang.<br>
@@ -121,13 +139,13 @@
 </p>
 
 <hr>
-<p><u>Student Publications</u>:</p>
+<h4><u>Student Publications</u>:</h4>
 <p>
-<div style="width: 90%;display:flex;">
+<div class="row">
 	<div class="pic">
-		<img src="img/pic_china_emissions.png" width=150>
+		<img src="img/pic_china_emissions.png" class="pic_img">
 	</div>
-	<div style="margin-top:auto;margin-bottom:auto">
+	<div class="info">
 		<b>Carbon Capitalism with Chinese Characteristics: Establishing an Emissions Trading Scheme.</b><br>
 		<i>Penn Sustainability Review</i>, Spring 2015, pp. 26-33.<br>
 		<a href="https://repository.upenn.edu/psr/vol1/iss6/7/" target="_blank">Open Access</a>
@@ -137,11 +155,11 @@
 
 <hr>
 <p>
-<div style="width: 90%;display:flex;">
+<div class="row">
 	<div class="pic">
-		<img src="img/pic_index_empirical.png" width=150>
+		<img src="img/pic_index_empirical.png" class="pic_img">
 	</div>
-	<div style="margin-top:auto;margin-bottom:auto">
+	<div class="info">
 		<b>Fossil Fuel Stranded Assets: Efficient Market or Carbon Bubble?</b><br>
 		Wharton Public Policy Initiative Student Blog. April 12, 2017.<br>
 		<a href="docs/WhartonPPI_ThomasLee_StrandedAssets.pdf" target="_blank">PDF</a>
