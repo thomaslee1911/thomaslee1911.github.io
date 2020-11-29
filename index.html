@@ -51,10 +51,6 @@
 		font-size:2rem;
 		text-align:center;
 	}
-	h3 {
-		font-size:1.7rem;
-		font-weight:normal;
-	}
 	h4 {
 		font-size:1.2rem;
 		font-weight:normal;
@@ -69,6 +65,9 @@
 		color:#3498DB;
 		text-decoration: none;
 		background-color: #f7f7f7;
+	}
+	.img_link {
+		background-color: transparent;
 	}
 	a:hover {
 		color:red;
@@ -85,15 +84,16 @@
 	<div class="pic">
 		<img src="img/picture2.png" class="pic_img">
 		<br><br>
-<a href="mailto:thomaslee1911@gmail.com"><img src="img/email.png" width="20%"></a>
-<a href="https://www.linkedin.com/in/thomas-lee-2017/" target="_blank"><img src="img/linkedin.svg" width="18%"></a>
-<a href="https://scholar.google.com/citations?hl=en&user=bvg9bmAAAAAJ" target="_blank"><img src="img/google.svg" width="20%"></a>
-
-
-	<a href="docs/CV Thomas Lee 2020-10-21.pdf" target="_blank"><b>CV</b></a>
-
-
-
+		<div>
+		<a href="mailto:thomaslee1911@gmail.com" class="img_link">
+			<img src="img/email.png" width="15%"></a>
+		<a href="https://www.linkedin.com/in/thomas-lee-2017/" target="_blank" class="img_link">
+			<img src="img/linkedin.svg" width="15%"></a>
+		<a href="https://scholar.google.com/citations?hl=en&user=bvg9bmAAAAAJ" target="_blank" class="img_link">
+			 <img src="img/google.svg" width="15%"></a>
+		<a href="docs/CV Thomas Lee 2020-10-21.pdf" target="_blank" class="img_link">
+			<img src="img/cv.svg" width="15%"></a>
+		</div>
 	</div>
 	<div class="info">
 		Hi! I'm currently a Senior Trading Analyst at
@@ -162,7 +162,7 @@
 </div>
 
 <hr>
-<h4><u>Student Publications</u></h4>
+<h4>Student Publications</h4>
 <div class="row">
 	<div class="pic">
 		<img src="img/pic_china_emissions.png" class="pic_img">
